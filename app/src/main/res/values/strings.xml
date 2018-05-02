@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">musical album</string>
+    <string name="Albums">Albums</string>
+    <string name="Musics">Musics</string>
+    <string name="Artists">Artists</string>
+    <string name="MusicsButton">Musics</string>
+    <string name="ArtistsButton">Artists</string>
+    <string name="AlbumButton">Album</string>
+    <string name="Evolve">Evolve</string>
+    <string name="Damn">Damn</string>
+    <string name="Stoney">Stoney</string>
+    <string name="Flicker">Flicker</string>
+    <string name="Lust_for_Life">Lust for Life</string>
+    <string name="The_Wall">The Wall</string>
+    <string name="imagine_dragons">imagine</string>
+    <string name="Kendrick">Kendrick</string>
+    <string name="Post_Malone">Post Malone</string>
+    <string name="Nail_Horan">Nail Horan</string>
+    <string name="Lana_Del">Lana Del</string>
+    <string name="Pink_Floyd">Pink Floyd</string>
+    <string name="category_Albums">Albums</string>
+    <string name="category_Musics">Musics</string>
+    <string name="category_Artists">Artists</string>
+    <string name="Back">Back</string>
+    <string name="song_1">Yesterday</string>
+    <string name="song_2">FEEL</string>
+    <string name="song_3">Cold</string>
+    <string name="song_4">Fire Away</string>
+    <string name="song_5">Change</string>
+    <string name="song_6">Dress</string>
+    <string name="artist_1">imagine dragons</string>
+    <string name="artist_2">Kendrick</string>
+    <string name="artist_3">Post Malone</string>
+    <string name="artist_4">Nail Horan</string>
+    <string name="artist_5">Lana Del</string>
+    <string name="artist_6">Taylor Swift</string>
+
+
+</resources>

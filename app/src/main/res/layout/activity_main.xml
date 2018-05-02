@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalalbum.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/albums"
+             />
+        <TextView
+            android:id="@+id/albums"
+            style="@style/CategoryStyle"
+            android:textSize="40sp"
+            android:background="@color/albums"
+            android:text="@string/Albums"
+            android:layout_height="wrap_content" />
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/artists" />
+        <TextView
+            android:id="@+id/artists"
+            android:textSize="40sp"
+            style="@style/CategoryStyle"
+            android:background="@color/artists"
+            android:text="@string/Artists"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/music" />
+        <TextView
+            android:textSize="40sp"
+            android:id="@+id/musics"
+            style="@style/CategoryStyle"
+            android:background="@color/musics"
+            android:text="@string/Musics"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+

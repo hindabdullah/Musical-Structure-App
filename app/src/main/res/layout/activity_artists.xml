@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/albums2"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalalbum.albumsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/Album_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/AlbumButton" />
+
+            <Button
+                android:id="@+id/musics_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/MusicsButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play"/>
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/album1"
+                style="@style/CategoryStyle"
+                android:background="@color/musicsColor1"
+                android:text="@string/imagine_dragons"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play" />
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/album2"
+                style="@style/CategoryStyle"
+                android:background="@color/musicsColor2"
+                android:text="@string/Kendrick"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play" />
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/album3"
+                style="@style/CategoryStyle"
+                android:background="@color/musicsColor1"
+                android:text="@string/Post_Malone"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play" />
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/album4"
+                style="@style/CategoryStyle"
+                android:background="@color/musicsColor2"
+                android:text="@string/Nail_Horan"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play" />
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/album5"
+                style="@style/CategoryStyle"
+                android:background="@color/musicsColor1"
+                android:text="@string/Lana_Del"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/album6"
+                style="@style/CategoryStyle"
+                android:layout_height="wrap_content"
+                android:background="@color/musicsColor2"
+                android:text="@string/Pink_Floyd"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:id="@+id/back"
+            android:background="@color/albums"/>
+
+    </LinearLayout>
+</ScrollView>
